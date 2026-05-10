@@ -19,17 +19,11 @@ import StudentMarksView from "./pages/StudentMarksView";
 import StudentAttendanceView from "./pages/StudentAttendanceView";
 
 
-const basename =
-  import.meta.env.MODE === "production"
-    ? "/student-dbms-mini-project"
-    : "/";
-
-
 function App() {
 
   return (
 
-    <BrowserRouter basename={basename}>
+    <BrowserRouter basename="/student-dbms-mini-project">
 
       <Routes>
 

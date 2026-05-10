@@ -23,7 +23,7 @@ function App() {
 
   return (
 
-    <BrowserRouter basename="/student-dbms-mini-project">
+    <BrowserRouter>
 
       <Routes>
 
